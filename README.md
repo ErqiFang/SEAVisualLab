@@ -120,10 +120,10 @@
 
 <table>
   <tr>
-    <td align="center">
+    <td style="padding-right:10px;">
       <img width="420" src="https://github.com/user-attachments/assets/5f8d6e9c-d421-4a67-a5d0-b9611beb4378" />
     </td>
-    <td align="center">
+    <td>
       <img width="420" src="https://github.com/user-attachments/assets/16545f96-ff2d-4b27-be05-f970e8b90209" />
     </td>
   </tr>
