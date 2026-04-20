@@ -2,13 +2,19 @@
 
 东南亚电商智能视觉生成平台（SEA Visual Lab）是一个面向跨境中小商家的 AI 商品图生成 SaaS 原型。
 
+<img width="1732" height="898" alt="image" src="https://github.com/user-attachments/assets/c829e495-8f10-4002-9144-3195b6a716f6" />
+
 它聚焦解决三个高频痛点：
 
 - 不懂东南亚本地审美
 - 测图成本高、迭代慢
 - 细节图与卖点图制作繁琐
+<img width="1270" height="634" alt="image" src="https://github.com/user-attachments/assets/9e50a1e3-736b-40dd-947e-3aee2d546541" />
+<img width="1280" height="594" alt="image" src="https://github.com/user-attachments/assets/5d7785f1-1345-4c32-8c4d-ec19a92f6880" />
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/8abc8707-5f9d-4c24-b485-71a3f4a05c56" />
 
 通过“一键上传原图 + 多风格生成 + 卖点自动拆解 + 一体化工作台”，SEA Visual Lab 帮助商家快速产出适合 Shopee、Lazada、TikTok Shop 等平台的主图、辅图和细节图，降低视觉制作门槛，提升点击率与转化率。
+
 
 ## 页面说明
 
@@ -18,7 +24,7 @@
 - 工作台：`/studio`
 - 视觉示意素材：源码压缩包内的 `src/image/`
 
-如果你在本地解压源码并启动项目，就可以直接看到首页和工作台中的视觉预览与生成流程。由于当前环境没有可用的浏览器截图工具，这里先用文字说明代替真实页面截图。
+如果你在本地解压源码并启动项目，就可以直接看到首页和工作台中的视觉预览与生成流程。
 
 ## 产品定位
 
@@ -50,16 +56,6 @@
 - 中间：上传与参数配置
 - 右侧：结果预览、筛选、重生成与下载
 - 整个流程在同一页面完成，减少来回切换
-
-### 4. 真实链路与 fallback
-
-本项目同时支持：
-
-- 真实上传与服务端处理
-- 真实生成接口调用
-- 生成失败时自动 fallback 到服务端渲染结果或 mock 结果
-
-这样既能展示完整产品链路，也能保证本地演示时有稳定输出。
 
 ## 技术栈
 
@@ -143,54 +139,8 @@ APP_BASE_URL=http://localhost:3000
 - `TOKENPLAN_IMAGE_PATH`：图片生成接口路径
 - `APP_BASE_URL`：生成可访问 URL 时使用
 
-## 目录结构
-
-```text
-src/
-  app/
-    api/
-      generate-main-images/route.ts
-      generate-detail-images/route.ts
-      regenerate-style/route.ts
-      regenerate-detail-group/route.ts
-    page.tsx
-    studio/page.tsx
-  components/
-    landing/home-page.tsx
-    studio/studio-shell.tsx
-  lib/
-    client/
-    mappers/
-    mock/
-    prompts/
-    services/
-    utils/
-    validators/
-  mock/
-  types/
-```
-
-## 仓库说明
-
-为了让 GitHub 上的仓库更轻量，本次发布会把完整源码放进压缩包，仓库根目录主要保留说明文档。
-
-- 完整源码：`SEAVisualLab-source.zip`
-- 本地示意素材：压缩包中的 `src/image/`
-
-如果你想继续做成标准的可浏览源码仓库，可以把压缩包解开，再按原目录结构重新上传。
-
 ## 安全提醒
 
 - 不要把 API Key 写进前端代码
 - 不要把真实密钥写进 README 示例
 - 所有 provider 调用都应该保留在服务端
-
-## 后续替换建议
-
-如果你后续拿到 TokenPlan 或 MiniMax 的正式接口文档，可以优先替换这几处：
-
-1. `src/lib/services/tokenPlanClient.ts`
-2. `src/lib/services/minimaxClient.ts`
-3. `src/lib/services/imageGenerationService.ts`
-
-这样可以尽量保持当前页面结构和交互不变，只替换后端生成逻辑。
