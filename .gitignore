@@ -1,0 +1,13 @@
+.next
+node_modules
+out
+coverage
+*.log
+*.tsbuildinfo
+*.local
+.env
+.env.local
+.env.*.local
+.DS_Store
+public/runtime-uploads
+SEAVisualLab-source.zip
