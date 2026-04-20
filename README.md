@@ -95,16 +95,20 @@
 
 <img width="1872" height="948" alt="image" src="https://github.com/user-attachments/assets/9302455a-eee5-4abb-87ab-d0602185587c" />
 
-<div style="display: flex; flex-wrap: wrap; gap: 10px;">
-  <div style="flex: 1; min-width: 300px;">
-    <img width="412" height="418" alt="image" src="https://github.com/user-attachments/assets/1363d838-be86-4f71-81ac-6b60e6b7f158" />
-    <br/>
-    <img width="396" height="186" alt="image" src="https://github.com/user-attachments/assets/e3b271b7-9ff0-4d2c-94b9-d9cbea0888ca" />
-  </div>
-  <div style="flex: 1; min-width: 300px;">
-    <img width="428" height="422" alt="image" src="https://github.com/user-attachments/assets/2a14648a-7203-4e8d-89dc-a2bc952c4331" />
-  </div>
-</div>
+<br>
+
+<table align="center">
+  <tr>
+    <td align="center" style="padding-right:10px; vertical-align:top;">
+      <img width="300" src="https://github.com/user-attachments/assets/1363d838-be86-4f71-81ac-6b60e6b7f158" />
+      <br><br>
+      <img width="300" src="https://github.com/user-attachments/assets/e3b271b7-9ff0-4d2c-94b9-d9cbea0888ca" />
+    </td>
+    <td align="center" style="vertical-align:top;">
+      <img width="300" src="https://github.com/user-attachments/assets/2a14648a-7203-4e8d-89dc-a2bc952c4331" />
+    </td>
+  </tr>
+</table>
 
 ### 功能二：卖点细节图生成
 
@@ -118,9 +122,11 @@
 
 <img width="1872" height="948" alt="image" src="https://github.com/user-attachments/assets/681c0099-4acb-4f7c-8235-ac422d75ac95" />
 
+<br>
+
 <table align="center">
   <tr>
-    <td align="center" style="padding-right:10px;">
+    <td align="center" style="padding-right:10px">
       <img width="300" src="https://github.com/user-attachments/assets/5f8d6e9c-d421-4a67-a5d0-b9611beb4378" />
     </td>
     <td align="center">
