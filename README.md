@@ -118,15 +118,16 @@
 
 <img width="1872" height="948" alt="image" src="https://github.com/user-attachments/assets/681c0099-4acb-4f7c-8235-ac422d75ac95" />
 
-
-<div style="display: flex; flex-wrap: wrap; gap: 10px;">
-  <div style="flex: 1; min-width: 300px;">
-    <img width="430" height="450" alt="image" src="https://github.com/user-attachments/assets/5f8d6e9c-d421-4a67-a5d0-b9611beb4378" />
-  </div>
-  <div style="flex: 1; min-width: 300px;">
-     <img width="458" height="528" alt="image" src="https://github.com/user-attachments/assets/16545f96-ff2d-4b27-be05-f970e8b90209" />
-  </div>
-</div>
+<table>
+  <tr>
+    <td align="center">
+      <img width="420" src="https://github.com/user-attachments/assets/5f8d6e9c-d421-4a67-a5d0-b9611beb4378" />
+    </td>
+    <td align="center">
+      <img width="420" src="https://github.com/user-attachments/assets/16545f96-ff2d-4b27-be05-f970e8b90209" />
+    </td>
+  </tr>
+</table>
 
 
 ## 技术栈
