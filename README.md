@@ -58,17 +58,20 @@
 
 ## 页面说明
 ### 首页
+
 本项目前端展示平台旨在为东南亚跨境电商卖家提供直观、高效的商品图生成体验。整体页面设计遵循“简单、易懂、高效”的原则，引导用户快速完成从原图上传到爆款素材下载的全过程。
-1.首屏核心展示区
+
+1. 首屏核心展示区
 价值主张：通过醒目的标题“一键生成东南亚爆款主图”，直击用户痛点（不懂当地审美）。
 风格预览：右侧展示“专业棚拍”、“生活场景”、“半身特写”、“多色拼图”四种核心风格卡片，让用户在注册前即可直观感受生成效果，降低决策门槛。
-2.核心功能亮点
+2. 核心功能亮点
 多风格测款：展示系统如何通过AI将同一商品生成为不同风格的图片（如工作室vs街拍），帮助用户进行“数据选优”。
 智能卖点拆解：演示系统如何自动识别面料与剪裁，生成带有“垂感”、“挺括”等本地化文案的细节图，提升商品转化率。
-3.场景化模板库
+3. 场景化模板库
 平台适配：针对Shopee、Lazada、TikTok等不同平台的算法偏好和用户习惯，预设了“官方推荐”、“爆款街拍”、“细节展示”等热门风格模板，确保生成的图片“用得对”。
-4.极简操作流程
+4. 极简操作流程
 三步闭环：清晰展示“上传原图”→“选择目标市场”→“下载即用”的三步操作流，强调系统自动化匹配当地审美，无需人工干预。
+
 <img width="1278" height="946" alt="image" src="https://github.com/user-attachments/assets/1013d9c7-87e6-4022-aad4-428b122345c0" />
 <img width="1270" height="634" alt="image" src="https://github.com/user-attachments/assets/9e50a1e3-736b-40dd-947e-3aee2d546541" />
 <img width="1280" height="594" alt="image" src="https://github.com/user-attachments/assets/5d7785f1-1345-4c32-8c4d-ec19a92f6880" />
@@ -91,6 +94,7 @@
 生成提示：明确告知用户“生成过程通常需要10-20秒”，并提供“系统会自动完成上传、校验和结果回传”的说明，提升用户体验与信任感。
 
 <img width="1872" height="948" alt="image" src="https://github.com/user-attachments/assets/9302455a-eee5-4abb-87ab-d0602185587c" />
+
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
   <div style="flex: 1; min-width: 300px;">
     <img width="412" height="418" alt="image" src="https://github.com/user-attachments/assets/1363d838-be86-4f71-81ac-6b60e6b7f158" />
@@ -112,13 +116,15 @@
 3. 实时预览与高效生成
 右侧实时预览区同步展示AI生成的细节图效果，直观呈现“垂感·挺括西装面料”“舒适！细腻！不易皱”等卖点文案与视觉的结合效果，让商家在生成前即可确认风格与内容；生成过程保持与功能一一致的10-20秒高效节奏，且系统自动完成上传、校验与回传，无需人工干预，进一步提升细节图制作效率。
 
-<img width="458" height="528" alt="image" src="https://github.com/user-attachments/assets/16545f96-ff2d-4b27-be05-f970e8b90209" />
+<img width="1872" height="948" alt="image" src="https://github.com/user-attachments/assets/681c0099-4acb-4f7c-8235-ac422d75ac95" />
+
+
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
   <div style="flex: 1; min-width: 300px;">
     <img width="430" height="450" alt="image" src="https://github.com/user-attachments/assets/5f8d6e9c-d421-4a67-a5d0-b9611beb4378" />
   </div>
   <div style="flex: 1; min-width: 300px;">
-    <img width="1872" height="948" alt="image" src="https://github.com/user-attachments/assets/681c0099-4acb-4f7c-8235-ac422d75ac95" />
+     <img width="458" height="528" alt="image" src="https://github.com/user-attachments/assets/16545f96-ff2d-4b27-be05-f970e8b90209" />
   </div>
 </div>
 
